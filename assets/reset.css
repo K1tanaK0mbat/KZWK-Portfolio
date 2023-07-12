@@ -1,6 +1,44 @@
-/* add media query code that responds when viewport changes */
-/* add code to make all h1 elements align to the left */
+/* Add code to make font family and font color the same for all elements */
+* {
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color:var(--font-color);
+    background-color: rgb(28, 6, 33);
+}
 
 /* create variables for color schemes */
+:root {
+    --font-color: rgb(183,14,213);
+    --box-color: rgb(89, 7, 147);
+}
 
-/* Add code to make font family and font color the same for all elements */
+/* add media query code that responds when viewport changes */
+
+/* add code to make all h1 elements align to the left */
+h1 {
+    display: inline-block;
+    text-align: left;
+  
+}
+ ul {
+    list-style-type: none;
+float:right;
+ }
+
+ li{
+    display: inline-block;
+
+ }
+img{
+    width: 200px;
+   height: 80px;
+   border-style: solid;
+   border-color: var(--box-color);
+    filter:saturate(55%);
+    object-fit:cover;
+}
+
+
+img:hover {
+    filter: saturate(170%);
+}
+
