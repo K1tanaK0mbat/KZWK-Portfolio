@@ -5,16 +5,16 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>KitanaZWK Portfolio</title>
-  <link rel="stylesheet" href="assets/reset.css" />
+  <link rel="stylesheet" href="./assets/reset.css" />
   <link rel="stylesheet" href="./assets/style.css" />
 </head>
 
 <body>
 
-  <header>
+  <header class="header">
  <!--Use class to put background image of me-->
     <h1>Kitana Kearney</h1>
-    <ul>
+    <ul id="headLink">
       <li>
      <a href="#About-Me"> About Me </a>  
       </li>
@@ -29,35 +29,50 @@
     </li>
   </ul>
   <!--Add career title or position-->
-    <h2>Subtitle</h2>
-    
+  <br>
+    <h2 id="subtitle">Subtitle</h2>
+   
   </header>
 
   <main>
-   
-   <h1 id="About-Me">About Me</h1>
+    <section>
+   <h1 id="About-Me" class="hONE">About Me</h1>
    <!--Add information about my work,education, goals or a few personal details-->
    <p></p>
+   </section>
 
 <h1 id="Work">Work</h1>
 <!--Use placeholder images until I have projects to add-->
-   <section class=>
+    <figure id="topPic">
     <img src="./assets/images/fantstock3.jpg"/>
-
    <h2>Kitana's Prework Guide</h2>
-   <p></p>
+   <p>my</p>
+    </figure>
+
+<section class=workRows>
+      <figure class="workCard">
    <img src="./assets/images/fanstock7.jpg"/>
    <h2>Work</h2>
-   <p></p>
+   <p>my</p>
+  </figure>
+
+  <figure class="workCard">
    <img src="./assets/images/fanstock4.jpg"/>
    <h2>Work</h2>
-   <p></p>
+   <p>my</p>
+   </figure>
+
+    <figure class="workCard">
    <img src="./assets/images/fantstock5.gif"/>
    <h2>Work</h2>
-   <p></p>
+   <p>my</p>
+</figure>
+
+  <figure class="workCard">
    <img src="./assets/images/fantstock6.jpg"/>
    <h2>Work</h2>
-   <p></p>
+   <p>my</p>
+   </figure>
    </section>
 
 <!--Create and add link to resume-->
@@ -65,8 +80,9 @@
   
   </main>
 
-  <footer>
+  <footer >
      <h1 id="Contact-Me">Contact Me</h1>
+     <section id="footer">
 <ul>
 
     <li>201-640-7091</li>
@@ -74,6 +90,7 @@
     <li>GitHub</li>
 
   </ul>
+  </section>
   </footer>
 
 </body>
