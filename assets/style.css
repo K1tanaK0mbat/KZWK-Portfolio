@@ -1,17 +1,50 @@
 /* create class for header links */
+#headLink {
+    
+}
 
 /* create id selector for background image */
+.header {
+    background:url("assets/images/meagain.jpg");
+    background-size:cover;
+ background-position:center;
+    width:100%;
+    height:200px;
+    margin: 15px;
+    background-repeat: repeat;
+    background-color: rgb(65, 46, 74);
+}
 
 /*create id selector for Subtitle section */
+#subtitle {
+    float:right;
+}
 
 /* create class selectors for Work section */
-
+.workCard {
+    display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+ }
+  
 
 /* Id selector for the first image in Work section to make image the biggest*/
+
+#topPic { 
+    display:block;
+   justify-content: center;
+}
+
+
+
 /* add code to connect image to Study Guide link */
+#onlyWork {
+
+}
 
 /* create class selector for footer's Contact section, info underlined */
+#footer
+{margin-top: 25px;
 
+}
 
-
-/*add code to make image light up when cursor hovers on them /*

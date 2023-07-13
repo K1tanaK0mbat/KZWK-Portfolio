@@ -2,7 +2,7 @@
 * {
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     color:var(--font-color);
-    background-color: rgb(28, 6, 33);
+    box-sizing: border-box;
 }
 
 /* create variables for color schemes */
@@ -11,26 +11,34 @@
     --box-color: rgb(89, 7, 147);
 }
 
-/* add media query code that responds when viewport changes */
+body {
+    
+    background-color: rgb(28, 6, 33);
+}
+  
 
 /* add code to make all h1 elements align to the left */
 h1 {
     display: inline-block;
     text-align: left;
+        border-right-style: solid;
+        border-right-color: var(--box-color);
   
 }
  ul {
     list-style-type: none;
 float:right;
+display: inline-block;
+margin: 25px;
  }
 
  li{
-    display: inline-block;
+    display: inline;
 
  }
 img{
-    width: 200px;
-   height: 80px;
+    width: 600px;
+   height: 200px;
    border-style: solid;
    border-color: var(--box-color);
     filter:saturate(55%);
@@ -42,3 +50,8 @@ img:hover {
     filter: saturate(170%);
 }
 
+.workRows {
+    display:flex;
+    flex-flow: row wrap;
+    justify-content: center;
+}
