@@ -5,7 +5,7 @@
 
 /* create id selector for background image */
 .header {
-    background:url("assets/images/meagain.jpg");
+    background:url("./assets/images/meagain.jpg");
     background-size:cover;
  background-position:center;
     width:100%;
