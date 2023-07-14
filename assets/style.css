@@ -1,3 +1,7 @@
+:root {
+    --font-color: rgb(183,14,213);
+    --box-color: rgb(89, 7, 147);
+}
 /* create class for header links */
 #headLink {
     
@@ -24,23 +28,56 @@
 .workCard {
     display: flex;
   flex-direction: column;
-  justify-content: flex-start;
+  justify-content:center;
+  position: relative;
+ }
+
+ .workMini {
+    position: absolute;
+    background-color: var(--box-color);
+    color: var(--font-color);
+    border: var(--box-color);
+    width: 150px;
+    height: 85px;
+  top: 50px;
+  text-align: center;
+  line-height:60%;
+ }
+ #workMini {
+    position: absolute;
+    background-color: var(--box-color);
+    color: var(--font-color);
+    border: var(--box-color);
+    width: 300px;
+    height: 100px;
+  top: 50px;
+  text-align: center;
+
+  
  }
   
+ .workRows {
+    display:flex;
+    flex-flow: row wrap;
+    justify-content: flex-start;
+}
 
 /* Id selector for the first image in Work section to make image the biggest*/
 
 #topPic { 
-    display:block;
-   justify-content: center;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    align-self: stretch;
+    
 }
 
-
-
-/* add code to connect image to Study Guide link */
-#onlyWork {
+#topPic img {
+width: 900px;
+height: 400px;
 
 }
+
 
 /* create class selector for footer's Contact section, info underlined */
 #footer

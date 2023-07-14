@@ -27,8 +27,7 @@ h1 {
 }
  ul {
     list-style-type: none;
-float:right;
-display: inline-block;
+display:flex;
 margin: 25px;
  }
 
@@ -50,8 +49,3 @@ img:hover {
     filter: saturate(170%);
 }
 
-.workRows {
-    display:flex;
-    flex-flow: row wrap;
-    justify-content: center;
-}
