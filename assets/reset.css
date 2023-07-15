@@ -18,11 +18,13 @@ body {
   
 
 /* add code to make all h1 elements align to the left */
-h1 {
+h1 {  
+    position: relative;
     display: inline-block;
     text-align: left;
         border-right-style: solid;
         border-right-color: var(--box-color);
+      
   
 }
  ul {
