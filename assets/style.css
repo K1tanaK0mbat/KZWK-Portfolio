@@ -28,11 +28,13 @@ header {
  header a {
     color: var(--box-color);
  }
+
+ 
 /*create id selector for Subtitle section */
 #subtitle {
    text-align: right;
    margin: 20px;
-   background-image:url(/assets/images/meagain.jpg);
+
 }
 
 /* create class selectors for Work section */
@@ -78,13 +80,15 @@ header {
 
 #topPic { 
     display: flex;
+    left: 175px;
     position: relative;
-    
+   transform: scaleX(1.3); 
 }
 
 #topPic img {
 width: 900px;
 height: 400px;
+
 
 }
 
@@ -101,7 +105,12 @@ height: 400px;
     display:inline-flex;
 }
 
-
+#resume {
+font-size: 22px;
+translate: 100px;
+display: inline-block;;
+padding-bottom: 15px;
+}
 
 
 
