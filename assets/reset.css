@@ -22,7 +22,7 @@ h1 {
     display: inline-flex;
         border-right-style: solid;
         border-right-color: var(--box-color);
-        font-size: 38px;
+        font-size: 42px;
 }
 
 p {
