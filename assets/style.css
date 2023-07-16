@@ -1,34 +1,45 @@
 :root {
-    --font-color: rgb(183,14,213);
-    --box-color: rgb(89, 7, 147);
+    --font-color: rgb(160, 105, 228);
+    --box-color: rgb(81, 6, 134);
 }
 /* create class for header links */
 #headLink {
-    
+right:50px;
+display: inline-flex;
+ color: var(--box-color);
 }
+
+#headLink li {
+  padding-left: 15px;
+  margin-top: 25px;
+}
+
+
 
 /* create id selector for background image */
-.header {
-    background:url("./assets/images/meagain.jpg");
-    background-size:cover;
- background-position:center;
+header {
     width:100%;
-    height:200px;
-    margin: 15px;
-    background-repeat: no-repeat;
-    background-color: rgb(65, 46, 74);
+    height:100px;
+    background-color:black;
 }
-
+ header h1 {
+    background-color:var(--box-color);
+ }
+ header a {
+    color: var(--box-color);
+ }
 /*create id selector for Subtitle section */
 #subtitle {
-    float:right;
+   text-align: right;
+   margin: 20px;
+   background-image:url(/assets/images/meagain.jpg);
 }
 
 /* create class selectors for Work section */
 .workCard {
     display: flex;
   flex-direction: column;
-  justify-content:center;
+  justify-content:flex-end;
   position: relative;
 }
 
@@ -41,7 +52,7 @@
     height: 85px;
   top: 50px;
   text-align: center;
-  line-height:60%;
+  line-height:40%;
  }
  #workMini {
     position: absolute;
@@ -50,8 +61,9 @@
     border: var(--box-color);
     width: 300px;
     height: 100px;
-  top: 50px;
+  bottom: 50px;
   text-align: center;
+  line-height: 70%;
 
   
  }
@@ -66,9 +78,7 @@
 
 #topPic { 
     display: flex;
-    flex-direction: column;
     position: relative;
-    align-self: stretch;
     
 }
 
@@ -80,8 +90,18 @@ height: 400px;
 
 
 /* create class selector for footer's Contact section, info underlined */
-#footer
-{margin-top: 25px;
-
+#footer li
+{
+    padding-bottom: 10px;
+    margin-left:100px ;
+    margin-right: 100px;
 }
+
+#footer {
+    display:inline-flex;
+}
+
+
+
+
 

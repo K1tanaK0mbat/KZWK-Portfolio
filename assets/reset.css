@@ -7,36 +7,40 @@
 
 /* create variables for color schemes */
 :root {
-    --font-color: rgb(183,14,213);
-    --box-color: rgb(89, 7, 147);
+    --font-color: rgb(106, 33, 162);
+    --box-color: rgb(96, 40, 136);
 }
 
 body {
     
-    background-color: rgb(28, 6, 33);
+    background-color: rgb(35, 2, 63);
 }
   
 
 /* add code to make all h1 elements align to the left */
-h1 {  
-    position: relative;
-    display: inline-block;
-    text-align: left;
+h1 { 
+    display: inline-flex;
         border-right-style: solid;
         border-right-color: var(--box-color);
-      
-  
+        font-size: 38px;
+}
+
+p {
+    font-size: 16px;
+}
+h2 {
+font-size: 30px;
 }
  ul {
     list-style-type: none;
-display:flex;
-margin: 25px;
+    position: absolute;
+    font-size: 20px;
+    text-decoration: underline;
+  text-decoration-style: solid;
+  text-decoration-thickness: 5px;
+  
  }
 
- li{
-    display: inline;
-
- }
 img{
     width: 600px;
    height: 200px;
@@ -50,4 +54,5 @@ img{
 img:hover {
     filter: saturate(170%);
 }
+
 
